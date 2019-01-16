@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Cryptography Playground</string>
+
+    <!-- Main activity -->
+    <string name="main_basic_section_title">Basic algorithms</string>
+    <string name="main_basic_cipher_button">Cipher</string>
+    <string name="main_basic_digest_button">Message Digest</string>
+    <string name="main_basic_mac_button">Mac</string>
+    <string name="main_basic_signature_button">Signature</string>
+    <string name="main_ks_section_title">Keystore</string>
+    <string name="main_ks_basic_button">Basic</string>
+    <string name="main_ks_authentication_button">With authentication</string>
+    <!-- Cipher activity -->
+    <string name="title_activity_cipher">Cipher</string>
+    <string name="cipher_form_title">AES/GCM/NoPadding</string>
+    <string name="cipher_message_hint">Message</string>
+    <string name="cipher_encrypt_button">Encrypt</string>
+    <string name="cipher_decrypt_button">Decrypt</string>
+    <string name="cipher_iv_label">Initialization vector:</string>
+    <string name="cipher_iv_placeholder">-</string>
+    <!-- Digest activity -->
+    <string name="title_activity_digest_message">Digest message</string>
+    <string name="digest_form_title">SHA-256</string>
+    <string name="digest_message_hint">Message</string>
+    <string name="digest_button">Digest</string>
+    <string name="digest_result_placeholder">-</string>
+    <!-- Mac activity -->
+    <string name="title_activity_mac">MAC</string>
+    <string name="mac_form_title">HmacSHA256</string>
+    <string name="mac_message_hint">Message</string>
+    <string name="mac_button">hmac</string>
+    <string name="mac_result_placeholder">-</string>
+    <!-- Signature activity -->
+    <string name="title_activity_signature">Signature</string>
+    <string name="signature_form_title">SHA256withECDSA</string>
+    <string name="signature_message_hint">Message</string>
+    <string name="signature_sign_button">Sign</string>
+    <string name="signature_result_label">Signature:</string>
+    <string name="signature_result_placeholder">-</string>
+    <string name="signature_verify_button">Verify</string>
+    <string name="signature_verify_result_label">Is Valid:</string>
+    <string name="signature_verify_result_placeholder">-</string>
+    <!-- Keystore basic activity -->
+    <string name="title_activity_keystore_basic">Keystore basic</string>
+    <string name="ks_basic_form_title">SHA256withECDSA</string>
+    <string name="ks_basic_message_hint">Message</string>
+    <string name="ks_basic_sign_button">Sign</string>
+    <string name="ks_basic_result_label">Signature:</string>
+    <string name="ks_basic_result_placeholder">-</string>
+    <!-- Keystore fingerprint activity -->
+    <string name="title_activity_keystore_fingerprint">Keystore fingerprint</string>
+    <string name="ks_fingerprint_form_title">SHA256withECDSA</string>
+    <string name="ks_fingerprint_message_hint">Message</string>
+    <string name="ks_fingerprint_sign_button">Sign</string>
+    <string name="ks_fingerprint_result_label">Signature:</string>
+    <string name="ks_fingerprint_result_placeholder">-</string>
+
+</resources>
